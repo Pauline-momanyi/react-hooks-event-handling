@@ -5,10 +5,14 @@ import ChangeItUp from "./ChangeItUp";
 import Login from "./Login";
 
 function App() {
+  function handleClick() {
+    console.log("click");
+  }
   return (
     <div>
       <h3>onClick</h3>
-      <Tickler />
+      <Tickler onClick = {handleClick}/> 
+      {/* haijawork */}
       <hr />
 
       <MultiButton />
